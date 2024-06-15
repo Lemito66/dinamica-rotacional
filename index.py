@@ -55,6 +55,7 @@ def main():
         print(f"La tensión en el hilo es {tension:.2f} N")
     except Exception as e:
         print(f"Error al resolver el sistema: {e}")
-
+        
+    input("Presiona Enter para salir...")
 
 main()
